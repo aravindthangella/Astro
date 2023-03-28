@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery-planets</title>
+    <script src="../JAVASCRIPT/Blackholes.js" defer></script>
+    <link rel="stylesheet" href="../CSS/Blackholes.css">
+    <link rel="stylesheet" href="../CSS/blognavbar.css" >
+</head>
+<body>
+    <div id="header">
+        <h1 id="heading">Gallery of Blackholes</h1>
+        <input class="b" id="left" type="button" value="<" onclick="dec()">
+        <input class="b" id="right" type="button" value=">" onclick="inc()">
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <a href="./Project_Of_Space.html"><li class="mli">HOME</li></a>
+            <a href="./Info.html"><li class="mli">INFO</li></a>
+            <li class="mli" id="sublistobj">Objects
+                <ul id="sublist">
+                    <a href="./planets.html"><li class="sli">Planets</li></a>
+                   <a href="./Stars.html"> <li class="sli">Stars</li>
+                    <li class="sli">Blackholes</li>
+                    <a href="./Asteroids.html"><li class="sli">Asteroids</li></a>
+                        <a href="./Satellite.html"><li class="sli">Satellite</li></a>
+                </ul>
+            </li>
+            <a href="../index.html"><li class="mli">logout</li></a>
+        </ul>
+    </div>
+    <div id="galleryImages">
+        <img class="a" onclick="openImg(1,'BH WITH CORONA','Due to conservation of angular momentum,[174] gas falling into the gravitational well created by a massive object will typically form a disk-like structure around the object.')">
+        <img class="a" onclick="openImg(2,'SIMULATION','A team of researchers from Purdue University and other institutions have discovered a supermassive black hole binary system, one of only two known such systems. The two black holes, which orbit each other, likely weigh 100 million suns each.')">
+        <img class="a" onclick="openImg(3,'FORBES','The Big Bang is one of the most counterintuitive ideas out there. If you think about taking all the matter and energy in the Universe, and starting it off in a tiny region of space, doesnt it seem rather unlikely that it would expand at the exact rate needed to give us the Universe ')">
+        <img class="a" onclick="openImg(4,'ASTRO POV','A black hole is a place in space where gravity pulls so much that even light can not get out. The gravity is so strong because matter has been squeezed into a tiny space. This can happen when a star is dying.')">
+        <img class="a" onclick="openImg(5,'PREDICTION','Black holes are some of the strangest and most fascinating objects in space. Theyre extremely dense, with such strong gravitational attraction that not even light can escape their grasp')">
+        <img class="a" onclick="openImg(6,'ARTIISTIC IMPRESSION','This artists impression depicts the paths of photons in the vicinity of a black hole. The gravitational bending and capture of light by the event horizon is the cause of the shadow captured by the Event Horizon Telescope.')">
+        <img class="a" onclick="openImg(7,'EATRH`S NEIGHBOR','The Event Horizon Telescope (EHT) is an active program that directly observes the immediate environment of black holes event horizons, such as the black hole at the centre of the Milky Way. In April 2017, EHT began observing the black hole at the centre of Messier 87.')">
+        <img class="a" onclick="openImg(8,'SIMULATION OF GAS','Another way the black hole nature of an object may be tested is through observation of effects caused by a strong gravitational field in their vicinity. ')">
+        <img class="a" onclick="openImg(9,'ringdown','Predicted appearance of a non-rotating black hole with toroidal ring of ionised matter, such as has been proposed[163] as a model for Sagittarius A*. The asymmetry is due to the Doppler effect resulting from the enormous orbital speed needed for centrifugal balance of the powerful gravitational attraction of the hole.')">
+    </div>
+</div>
+    <div id="subWindow" style="display:none;">
+    <h1 id="close" onclick="closeImg()">X</h1>
+    <img src="../ASSET/Images/1.jpg" id="subWindoImg">
+    <h1 id="imageHeading">hello</h1>
+    <p id="imgpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ut! Excepturi illum dolorum obcaecati nesciunt odit. Illum beatae dicta hic, incidunt labore dolor </p>
+</body>
+</html>

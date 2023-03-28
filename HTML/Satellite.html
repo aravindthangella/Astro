@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery-satellite</title>
+    <script src="../JAVASCRIPT/Satellite.js" defer></script>
+    <link rel="stylesheet" href="../CSS/Satellite.css">
+    <link rel="stylesheet" href="../CSS/blognavbar.css" >
+    
+</head>
+<body>
+    <div id="header">
+        <h1 id="heading">Gallery of satellites</h1>
+        <input class="b" id="left" type="button" value="<" onclick="dec()">
+        <input class="b" id="right" type="button" value=">" onclick="inc()">
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <a href="./Project_Of_Space.html"><li class="mli">HOME</li></a>
+            <a href="./Info.html"><li class="mli">INFO</li></a>
+            <li class="mli" id="sublistobj">Objects
+                <ul id="sublist">
+                    <a href="./planets.html"> <li class="sli">Planets</li></a>
+                        <a href="./Stars.html"> <li class="sli">Stars</li></a>
+                            <a href="./Blackholes.html"><li class="sli">Blackholes</li></a>
+                                <a href="./Asteroids.html"> <li class="sli">Asteroids</li></a>
+                    <li class="sli">Satellite</li>
+                </ul>
+            </li>
+            <a href="../index.html"><li class="mli">logout</li></a>
+        </ul>
+    </div>
+    <div id="galleryImages">
+        <img class="a" onclick="openImg(1,'CUBESAT','A CubeSat is a class of miniaturized satellite based around a form factor consisting of 10 cm (3.9 in) cubes.[1] CubeSats have a mass of no more than 2 kg (4.4 lb) per unit,[2] and often use commercial off-the-shelf (COTS) components for their electronics and structure. ')">
+        <img class="a" onclick="openImg(2,'SPUTNIK','The first artificial satellite was Sputnik 1, launched by the Soviet Union on 4 October 1957 under the Sputnik program, with Sergei Korolev as chief designer.')">
+        <img class="a" onclick="openImg(3,'DEEP SPACE','This image of a xenon ion engine, photographed through a port of the vacuum chamber where it was being tested at NASAs Jet Propulsion Laboratory, shows the faint blue glow of charged atoms being emitted from the engine. ')">
+        <img class="a" onclick="openImg(4,'SPACE STATION','The International Space Stations main solar arrays and radiators are pictured as the orbital laboratory soared 253 miles above the northern United States..')">
+        <img class="a" onclick="openImg(5,'BUDGET ','Launched from Challenger in October 1984, the Earth Radiation Budget Satellite was designed to investigate how energy from the Sun is absorbed and re-radiated by the planet, also known as the energy budget. The mission lasted 21 years, collecting key data on weather and climate, atmospheric ozone depletion, and the effects of fossil fuel burning.')">
+        <img class="a" onclick="openImg(6,'HUBBLE','Tether satellites are satellites that are connected to another satellite by a thin cable called a tether. Recovery satellites are satellites that provide a recovery of reconnaissance, biological, space-production and other payloads from orbit to Earth.')">
+        <img class="a" onclick="openImg(7,'MICROSCOPE ','The equality of inertial and gravitational mass central to Einstein’s general theory of relativity has been confirmed at unprecedented sensitivities by the MICROSCOPE satellite. Having gathered several thousand orbits’ worth of accelerometer data from two masses in free fall around the Earth, the French mission has found no violation of the equivalence principle at the level of a few parts in a thousand trillion.')">
+        <img class="a" onclick="openImg(8,'GEOSTATIONARY','A geostationary satellite is in an orbit that can only be achieved at an altitude very close to 35,786 km (22,236 miles) and which keeps the satellite fixed over one longitude at the equator. The satellite appears motionless at a fixed position in the sky to ground observers.')">
+        <img class="a" onclick="openImg(9,'A-TRAIN','An Earth observation satellite or Earth remote sensing satellite is a satellite used or designed for Earth observation (EO) from orbit, including spy satellites and similar ones intended for non-military uses such as environmental monitoring, meteorology, cartography and others.')">
+    </div>
+</div>
+    <div id="subWindow" style="display:none;">
+    <h1 id="close" onclick="closeImg()">X</h1>
+    <img src="../ASSET/Images/1.jpg" id="subWindoImg">
+    <h1 id="imageHeading">hello</h1>
+    <p id="imgpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ut! Excepturi illum dolorum obcaecati nesciunt odit. Illum beatae dicta hic, incidunt labore dolor </p>
+</body>
+</html>

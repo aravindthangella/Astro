@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery-stars</title>
+    <script src="../JAVASCRIPT/Stars.js" defer></script>
+    <link rel="stylesheet" href="../CSS/Stars.css">
+    <link rel="stylesheet" href="../CSS/blognavbar.css" >
+</head>
+<body>
+    <div id="header">
+        <h1 id="heading">Gallery of stars</h1>
+        <input class="b" id="left" type="button" value="<" onclick="dec()">
+        <input class="b" id="right" type="button" value=">" onclick="inc()">
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <a href="./Project_Of_Space.html"><li class="mli">HOME</li></a>
+            <a href="./Info.html"><li class="mli">INFO</li></a>
+            <li class="mli" id="sublistobj">Objects
+                <ul id="sublist">
+                    <a href="./planets.html"> <li class="sli">Planets</li></a>
+                    <li class="sli">Stars</li>
+                    <a href="./Blackholes.html"><li class="sli">Blackholes</li></a>
+                        <a href="./Asteroids.html"><li class="sli">Asteroids</li></a>
+                            <a href="./Satellite.html"><li class="sli">Satellite</li></a>
+                </ul>
+            </li>
+            <a href="../index.html"><li class="mli">Logout</li></a>
+        </ul>
+    </div>
+    <div id="galleryImages">
+        <img class="a" onclick="openImg(1,'Magellanic Cloud','The image is from the European Space Agency. It is listed as the LH 95 star forming region of the Large Magellanic Cloud. The image was taken using the Hubble Space Telescope.')">
+        <img class="a" onclick="openImg(2,'Milky Way','This dazzling infrared image from NASAs Spitzer Space Telescope shows hundreds of thousands of stars crowded into the swirling core of our spiral Milky Way galaxy. In visible-light pictures, this region cannot be seen at all because dust lying between Earth and the galactic center blocks our view.')">
+        <img class="a" onclick="openImg(3,'EVOLUTION','Stellar evolution of low-mass (left cycle) and high-mass (right cycle) stars, with examples in italics. Stars condense from regions of space of higher matter density, yet those regions are less dense than within a vacuum chamber. ')">
+        <img class="a" onclick="openImg(4,'MOLECULAR STAR','The formation of a star begins with gravitational instability within a molecular cloud, caused by regions of higher density—often triggered by compression of clouds by radiation from massive stars, expanding bubbles in the interstellar medium, the collision of different molecular clouds')">
+        <img class="a" onclick="openImg(5,'ALMA','This orange blob shows the nearby star Betelgeuse, as seen by the Atacama Large Millimeter/submillimeter Array (ALMA). This is the first time that ALMA has ever observed the surface of a star and this first attempt has resulted in the highest-resolution image of Betelgeuse available.')">
+        <img class="a" onclick="openImg(6,'CORE','Near the end of the stars life, fusion continues along a series of onion-layer shells within a massive star. ')">
+        <img class="a" onclick="openImg(7,'CRAB Nebula','This is a mosaic image, one of the largest ever taken by NASAs Hubble Space Telescope, of the Crab Nebula, a six-light-year-wide expanding remnant of a stars supernova explosion. Japanese and Chinese astronomers recorded this violent event in 1054 CE.')">
+        <img class="a" onclick="openImg(8,'Sirius','This picture is an artists impression showing how the binary star system of Sirius A and its diminutive blue companion, Sirius B, might appear to an interstellar visitor')">
+        <img class="a" onclick="openImg(9,'STARS','Some of the well-known stars are shown with their apparent colors and relative sizes. Suggested alt-text: Several circles (~25) of different sizes representing well-known stars to scale are shown with their apparent colors.')">
+    </div>
+</div>
+    <div id="subWindow" style="display:none;">
+    <h1 id="close" onclick="closeImg()">X</h1>
+    <img src="../ASSET/Images/1.jpg" id="subWindoImg">
+    <h1 id="imageHeading">hello</h1>
+    <p id="imgpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ut! Excepturi illum dolorum obcaecati nesciunt odit. Illum beatae dicta hic, incidunt labore dolor </p>
+</body>
+</html>

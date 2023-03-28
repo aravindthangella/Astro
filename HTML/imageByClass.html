@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <script>
+         var images=document.getElementsByClassName("a")
+         for(i=0;i<=images.length;i++)
+         {
+            images[i].setAttribute("src","./"+i+".jpg")
+            images[i].style.width="120px"
+         }
+    </script>
+    
+</body>
+</html>

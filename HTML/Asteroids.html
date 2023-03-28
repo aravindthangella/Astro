@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery-planets</title>
+    <script src="../JAVASCRIPT/Asteroids.js" defer></script>
+    <link rel="stylesheet" href="../CSS/Asteroids.css">
+    <link rel="stylesheet" href="../CSS/blognavbar.css" >
+   
+</head>
+<body>
+    <div id="header">
+        <h1 id="heading">Gallery of Asteroids</h1>
+        <input class="b" id="left" type="button" value="<" onclick="dec()">
+        <input class="b" id="right" type="button" value=">" onclick="inc()">
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <a href="./Project_Of_Space.html"><li class="mli">HOME</li></a>
+            <a href="./Info.html"><li class="mli">INFO</li></a>
+            <li class="mli" id="sublistobj">Objects
+                <ul id="sublist">
+                    <a href="./planets.html"> <li class="sli">Planets</li></a>
+                        <a href="./Stars.html"><li class="sli">Stars</li></a>
+                            <a href="./Blackholes.html"> <li class="sli">Blackholes</li></a>
+                    <li class="sli">Asteroids</li>
+                    <a href="./Satellite.html"><li class="sli">Satellite</li></a>
+                </ul>
+            </li>
+            <a href="../"><li class="mli">logout</li></a>
+        </ul>
+    </div>
+    <div id="galleryImages">
+        <img class="a" onclick="openImg(1,'MERCU','Asteroids are the rocky remnants of material leftover from the formation of the solar system and its planets approximately 4.6 billion years ago.')">
+        <img class="a" onclick="openImg(2,'FLYING SPACE','There are two main types of flying space rock – comets and asteroids – and their differences stem from their composition. Comets tend to be ‘dirty snowballs’ of ice and rock, whilst asteroids are composed of a combination of rock and metal.')">
+        <img class="a" onclick="openImg(3,'GAINT ROCK','A planet killer asteroid that is hiding in the glare of the sun has finally been detected, and the giant space rock could smash into Earth one day.')">
+        <img class="a" onclick="openImg(4,'MARS','The detailed images of these 42 objects are a leap forward in exploring asteroids, made possible thanks to ground-based telescopes, and contribute to answering the ultimate question of life, the Universe, and everything')">
+        <img class="a" onclick="openImg(5,'JUPITER','These algorithms are among the main technologies being demonstrated by DART,Chabot said earlier.')">
+        <img class="a" onclick="openImg(6,'SATURN',' Its a dark grey sphere with pits and divots all over its surface. It almost looks like a miniature moon. But it isn’t circling any planet. ')">
+        <img class="a" onclick="openImg(7,'URANUS','The asteroids are the parent body sources for most meteorite impacts on Earth and on other solar system bodies. Ninety-five percent of the original asteroids are no longer around; most were impactors. ')">
+        <img class="a" onclick="openImg(8,'NEPTUNE','Astronomers at the European Space Agencys Near Earth Object Coordination Centre (NEOCC), in Frascati, Italy, place objects that show even the slightest hint of striking our planet in the next century on a risk list, which currently contains 524 objects.')">
+        <img class="a" onclick="openImg(9,'SUN','Surprisingly, the total mass of material in the asteroid belt is only about 4 per cent of the mass of the Moon. About half of this mass is contained in the four largest asteroids: Ceres, Vesta, Pallas and Hygiea.')">
+    </div>
+</div>
+    <div id="subWindow" style="display:none;">
+    <h1 id="close" onclick="closeImg()">X</h1>
+    <img src="../ASSET/Images/1.jpg" id="subWindoImg">
+    <h1 id="imageHeading">hello</h1>
+    <p id="imgpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ut! Excepturi illum dolorum obcaecati nesciunt odit. Illum beatae dicta hic, incidunt labore dolor </p>
+</body>
+</html>

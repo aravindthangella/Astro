@@ -1,0 +1,57 @@
+*{
+padding: 0px;
+margin: 0px;
+
+}
+body{
+    background-image: url(../ASSET/Images/universe.jpg);
+    background-repeat:none;
+    background-size: 100%;
+}
+
+#in{
+width: 400px;
+height: 500px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0.6, 0, 0.6));
+border-radius: 5px;
+box-shadow: 5px 5px 10px black;
+position: absolute;
+left: 550px;
+top: 60px;
+color: white;
+}
+input{
+    width: 250px;
+    height: 40px;
+  background-color:rgba(0, 0, 0, 0.6);
+   color:black;
+   font-size: 20px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px white;
+   border: 2px groove white;
+   color: white;
+   position: relative;
+
+}
+#login{
+    width: 100px;
+    color: white;
+}
+#bell{
+    width: 30px;
+    position: relative;
+    top: 8px;
+    left: -40px;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+#in:hover{
+    width: 500px;
+height: 600px;
+    transition: 2s; 
+}
+#num{
+    right: 15px;
+}
